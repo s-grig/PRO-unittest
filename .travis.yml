@@ -86,6 +86,7 @@ script:
   - cmake -DBUILD_SHARED_LIBS=ON .
   - make
   - cd ..
+
   ######################## build main ################################### 
   
   - mkdir build && cd build
